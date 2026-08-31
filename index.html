@@ -9,19 +9,32 @@
         <meta name="keywords" content="html, css, learning">
         <!--  this meta tag encodes my characters and is used by the browser-->
         <meta charset="UTF-8">
+        <style>
+            body{
+                background-color: gainsboro;
+            }
+        </style>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
             <h1>Video Games</h1>
-            <nav></nav>
+            <nav>
+                <ul>
+                    <li><a href="#section1">Section 1</a></li>
+                    <li><a href="#section2">Section 2</a></li>
+                    <li><a href="#gallery">Section 3</a></li>
+                    <li><a href="page2.html">Page 2</a></li>
+                </ul> 
+            </nav>
         </header>
         <main>
-            <section>
+            <section id="section1">
                 <h2>origins</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facilis tempore porro aliquam! Fugiat, explicabo. Unde eos dolor rem illum. Ullam expedita quidem perspiciatis delectus voluptas ducimus culpa laudantium assumenda!</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio facilis tempore porro aliquam! Fugiat, explicabo. Unde eos dolor rem illum. Ullam expedita quidem perspiciatis delectus voluptas ducimus culpa laudantium assumenda!</p>
             </section>
-            <section>
+            <section id="section2">
                 <h3>Favorite Game Genre</h3>
                 <ol>
                     <li>action</li>
@@ -38,7 +51,7 @@
                     <li>Pokemon</li>
                 </ul>
             </section>
-            <section>
+            <section id="gallery">
                 <h5>Inline tags</h5>
                 <p>This content is <strong>strong</strong>.</p>
                 <p>This content is <b>bold</b>.</p>
